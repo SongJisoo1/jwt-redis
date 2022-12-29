@@ -87,7 +87,7 @@ module.exports = {
                 }
 
                 console.log(value);
-                res.status(200).json({ message: "로그아웃되었습니다." });
+                res.status(200).json({ message: "logout!" });
                 return;
             });
         } catch (error) {
